@@ -33,7 +33,7 @@ public class SpringitApplication {
 
     }
 
-    @Bean
+   //
 
     CommandLineRunner runner(LinkRepository linkRepository, CommentRepository commentRepository){
         return args -> {
